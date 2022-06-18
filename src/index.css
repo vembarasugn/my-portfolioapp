@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  max-width: 1400px;
+  display:block;
+  margin:auto;
+  background-color:#f3f3f3f1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* About -- section */
+
+.sec-abt{
+  padding-bottom: 10px;
+  width: 100%;
+  transition: 1s; 
+  opacity: 1; 
+  margin-top: 80px;
+}
+
+.about-info{
+  color:#635666;
+  opacity: 0.6;
+  font-size: 20px; 
+  text-align: justify;
+  padding: 1em;
+}
+
+/* Skills */
+
+.skills--section{
+  position:relative;
+  margin:100px 0;
+}
+
+.heading {
+  margin-top:85px;
+  text-align:center;
+  color:#635666;
+  text-transform:none;
+  font-size:42px;
+  font-weight:200; 
+  padding-bottom: 20px;   
+}
+
+/* timeline */
+
+.card-title{
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/*  About -- section end*/
+
+
+/* Project -- section */
+
+/* .card-touch:hover{
+ background-color:aliceblue;
+ font-size:18px;
+} */
+
+.project--header{
+  font-size:42px;
+  font-weight:200;
+  text-align: center;
+  margin-bottom: 30px;
+  color:#635666;
+  margin-top: 80px;
+}
+
+.Card-text{
+  color:#635666;
+  text-decoration: none;
+  opacity:0.8;
+}
+
+.btn-git{
+  text-decoration: none;
+}
+
+.btn-live{
+  text-decoration: none;
+}
+
+.project-ref{
+  color:#635666;
+  opacity: 0.8;
+  font-size: 16px; 
+  text-align: center;
+}
+
+/* Project -- section end */
+
+/*Socialflow link */
+
+.social-container {
+  background-color:#635666;
+  padding: 25px 60px;    
+}
+
+.section-social{
+  margin: 120px;
+}
+
+.connected {
+  color:#3c317af1;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;  
+}
+
+a.social:hover{
+  animation: shake 0.70s cubic-bezier(.32,.08,.20,.87) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 700px;
+}
+
+@keyframes shake {
+  
+  20%, 70% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+
+a.linkedin {
+  color:#0a6cbd;
+}
+
+a.facebook {
+  color:#0e40ac;
+}
+
+a.twitter {
+  color:#49a1eb;
+}
+
+a.github {
+  color:black;
+}
+
+.btnbottom{
+  margin: 0 8rem;
+  transition: transform 250ms;
+  display: inline-block;
+  justify-content: center;  
+}
+
+/* Socialflow link end */
+
