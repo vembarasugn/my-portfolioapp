@@ -65,9 +65,9 @@ function Footer() {
      columns={columns}
      copyright="2022"
      iconColor="black"
-     backgroundColor="#635666"
-     fontColor="#0b0627f1"
-     copyrightColor="#0b0627f1"   
+     backgroundColor="#222831"
+     fontColor="#F2F2F2"
+     copyrightColor="#F2F2F2"   
     />
     <Socialtab/> 
  </section>

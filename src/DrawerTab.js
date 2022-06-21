@@ -44,7 +44,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-start',
-  backgroundColor:'#635666'
+  backgroundColor:'#ECB390'
 }));
 
 function DrawerTab() {
@@ -92,7 +92,7 @@ function DrawerTab() {
   return (
     <Box sx={{ display: 'flex' }} >
       
-        <AppBar position="fixed" open={open} style={{ background:'#635666'}}>
+        <AppBar position="fixed" open={open} style={{ background:'#ECB390'}}>
          <Toolbar>
            <Typography variant="h5" noWrap sx={{ flexGrow: 1 }} component="div">
             Vembarasan's Portfolio
@@ -120,7 +120,7 @@ function DrawerTab() {
         variant="persistent"
         anchor="right"
         open={open}
-        backgroundColor="#635666"
+        backgroundColor="#774360"
         onClick={handleDrawerClose}
         >
 
@@ -133,7 +133,7 @@ function DrawerTab() {
 
         <Divider />
 
-        <List style={{ backgroundColor:"#635666"}} >
+        <List style={{ backgroundColor:"#ECB390"}} >
           {itemsList.map((item) => (
             <ListItem button  style={{ height:"74px"}} key={item.id} onClick={() => navigate(item.path)}>
               <ListItemText style={{color:"white",marginLeft:"60px"}}>{item.text} </ListItemText>
@@ -141,20 +141,21 @@ function DrawerTab() {
           ))}
         </List>
         <Divider/>
-        <List style={{ backgroundColor:"#635666"}} >
+        <List style={{ backgroundColor:"#ECB390"}} >
             <ListItem button  style={{ height:"71px"}} >
               <ListItemText style={{color:"white",marginLeft:"60px"}}>
               <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"white"}}> EMail Me</a></ListItemText>
             </ListItem> 
         </List>
-        <List style={{ backgroundColor:"#635666"}} >
+        <Divider/>
+        <List style={{ backgroundColor:"#ECB390"}}>
             <ListItem button  style={{ height:"71px"}}>
               <ListItemText style={{color:"white",marginLeft:"60px"}}> 
                <a target="_blank" href="./Vembarasan N CV-updated.pdf" style={{ textDecoration:"none", color:"white"}}>Get My CV </a></ListItemText>
             </ListItem> 
         </List>
         <Divider/>
-       <List style={{ backgroundColor:"#635666"}} >
+        <List style={{ backgroundColor:"#ECB390"}} >
           {itemCalender.map((items) => (
             <ListItem button key={items.id} style={{ height:"106px"}} onClick={()=> navigate(items.path)}>
              <ListItemIcon style={{marginLeft:"8px"}}>{items.icon}</ListItemIcon>
@@ -170,9 +171,7 @@ function DrawerTab() {
 export default DrawerTab;
 
         
-          
-
-
+        
 
 
   
