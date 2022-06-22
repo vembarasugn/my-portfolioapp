@@ -141,7 +141,9 @@ function Projects(){
       </Grid>
       ))}
       </Grid>
+      <br/>
       <h6 className="project-ref"> Note: Some projects have referred from online resources for learning and to built them.*</h6>
+      <br/>
     </section>
     )
   }

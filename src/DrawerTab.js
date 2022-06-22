@@ -1,5 +1,5 @@
 
-import * as React from 'react';
+import React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -94,7 +94,7 @@ function DrawerTab() {
       
         <AppBar position="fixed" open={open} style={{ background:'#ECB390'}}>
          <Toolbar>
-           <Typography variant="h5" noWrap sx={{ flexGrow: 1 }} component="div">
+           <Typography variant="h5" noWrap sx={{ flexGrow: 1 }} component="div" style={{color:"grey"}}>
             Vembarasan's Portfolio
            </Typography>
           <IconButton
@@ -104,7 +104,7 @@ function DrawerTab() {
             onClick={handleDrawerOpen}
             sx={{ ...(open && { display: 'none' }) }}
            >
-            <MenuIcon style={{ fontSize:40}}/>
+            <MenuIcon style={{ fontSize:40 , color:"grey"}}/>
           </IconButton>
          </Toolbar>
         </AppBar>
@@ -125,10 +125,10 @@ function DrawerTab() {
         >
 
         <DrawerHeader>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={handleDrawerClose} style={{color:"grey"}}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}  
           </IconButton>
-          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div" style={{color:"white"}}> Select One </Typography>
+          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div" style={{color:"grey"}}> Select One </Typography>
         </DrawerHeader>
 
         <Divider />
@@ -136,30 +136,36 @@ function DrawerTab() {
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemsList.map((item) => (
             <ListItem button  style={{ height:"74px"}} key={item.id} onClick={() => navigate(item.path)}>
-              <ListItemText style={{color:"white",marginLeft:"60px"}}>{item.text} </ListItemText>
+              <ListItemText style={{color:"grey",marginLeft:"60px"}}>{item.text} </ListItemText>
             </ListItem> 
           ))}
         </List>
+
         <Divider/>
+
         <List style={{ backgroundColor:"#ECB390"}} >
             <ListItem button  style={{ height:"71px"}} >
-              <ListItemText style={{color:"white",marginLeft:"60px"}}>
-              <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"white"}}> EMail Me</a></ListItemText>
+              <ListItemText style={{marginLeft:"60px"}}>
+              <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"grey"}}> EMail Me</a></ListItemText>
             </ListItem> 
         </List>
+
         <Divider/>
+        
         <List style={{ backgroundColor:"#ECB390"}}>
             <ListItem button  style={{ height:"71px"}}>
-              <ListItemText style={{color:"white",marginLeft:"60px"}}> 
-               <a target="_blank" href="./Vembarasan N CV-updated.pdf" style={{ textDecoration:"none", color:"white"}}>Get My CV </a></ListItemText>
+              <ListItemText style={{color:"grey",marginLeft:"60px"}}> 
+               <a target="_blank" href="./Vembarasan N CV-updated.pdf" style={{ textDecoration:"none", color:"grey"}}>Get My CV </a></ListItemText>
             </ListItem> 
         </List>
+
         <Divider/>
+
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemCalender.map((items) => (
             <ListItem button key={items.id} style={{ height:"106px"}} onClick={()=> navigate(items.path)}>
              <ListItemIcon style={{marginLeft:"8px"}}>{items.icon}</ListItemIcon>
-             <ListItemText style={{color:"white"}}>{items.text}</ListItemText>
+             <ListItemText style={{color:"grey"}}>{items.text}</ListItemText>
             </ListItem>
           ))}
         </List>                 
@@ -170,8 +176,5 @@ function DrawerTab() {
         
 export default DrawerTab;
 
-        
-        
 
-
-  
+        
