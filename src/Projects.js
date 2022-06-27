@@ -46,7 +46,7 @@ function Projects(){
     },
     { 
       id:"3",
-      Projectname:"My Portfolio App - walkthrough of my experience",
+      Projectname:"My Portfolio App - career walkthrough",
       description:"This portfolio app will help you to know in depth about my skillsets that I works and projects have built.A overview of all new technologies that I have used. ",
       Technologies:" HTML5 . CSS3 . ReactJS . NodeJS . Material-UI . TypeScript",
       github:"https://github.com/vembarasugn",
@@ -107,7 +107,7 @@ function Projects(){
             style={{ display: "flex", justifyContent: "center"}}
             key={list.id}
           > 
-         <Card sx={{ maxWidth: 356 }} style={{backgroundColor:"#f3f3f3f1", borderRadius:"16px" , maxHeight:"515px"}} variant="outlined"> 
+         <Card sx={{ maxWidth: 356 }} style={{backgroundColor:"#f3f3f3f1", borderRadius:"16px" , maxHeight:"515px", borderColor:"grey", borderWidth:"3px"}} variant="outlined"> 
           <CardActionArea>
           <CardMedia
            component="img"

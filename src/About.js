@@ -144,7 +144,7 @@ function About(){
               style={{ display: "flex", justifyContent: "center" }}
              >
   
-             <Card sx={{ minWidth:335 , maxWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:"230"}} variant="outlined">
+             <Card sx={{ minWidth:335 , maxWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:"230" , borderColor:"grey", borderWidth:"3px"}} variant="outlined">
              <CardContent  className="Card-text" key={Abtlist.id}>
              <Typography gutterBottom variant="h5" component="div">
               {Abtlist.Skillname}
@@ -177,7 +177,7 @@ function About(){
               xl={4}
               style={{ display: "flex", justifyContent: "center"}}
              >
-            <Card sx={{ maxWidth:335 , minWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:"280"}} variant="outlined">
+            <Card sx={{ maxWidth:335 , minWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:"280" , borderColor:"grey", borderWidth:"3px"}} variant="outlined">
              <CardContent  className="Card-text" key={Edlist.id} >
              <Typography gutterBottom variant="h5" component="div">
               UNIVERSITY : {Edlist.Universitname}
@@ -213,7 +213,7 @@ function About(){
               xl={4}
               style={{ display: "flex", justifyContent: "center"}}
              >
-            <Card sx={{ maxWidth:335 , minWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:270}} variant="outlined">
+            <Card sx={{ maxWidth:335 , minWidth:335 }} style={{backgroundColor: "#f3f3f3f1", borderRadius:"16px" , minHeight:270 , borderColor:"grey", borderWidth:"3px"}} variant="outlined">
              <CardContent  className="Card-text" key={Wrlist.id}>
              <Typography gutterBottom variant="h5" component="div">
               COMPANY : {Wrlist.Companyname}
@@ -225,7 +225,8 @@ function About(){
              <Typography gutterBottom variant="body2" >
               POSITION : {Wrlist.Position}
              </Typography>
-             </CardContent><br/>
+             </CardContent>
+             <br/>
              <CardActions>           
              <Button><Link underline="none" target="_blank" href={Wrlist.maplink} rel="noreferrer">{Wrlist.Country}</Link></Button>
              </CardActions>
@@ -240,4 +241,3 @@ function About(){
 
 export default About;
 
- 

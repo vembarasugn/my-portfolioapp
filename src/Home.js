@@ -46,7 +46,7 @@ function Home(){
     <section className={classes.typedContainer}>
     <Box  sx={{ maxWidth: 360 }}>
       <Grid container justifyContent="center">
-        <Avatar className={classes.avatar}  src={profilepic} alt="Vembarasan N" />
+        <Avatar className={classes.avatar} src={profilepic} alt="Vembarasan N"/>
       </Grid>
       <Typography className={classes.title} variant="h3">
         <Typed strings={["Hello , I am Vembarasan Nagarajan"]} typeSpeed={80} />
