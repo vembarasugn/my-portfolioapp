@@ -68,7 +68,7 @@ function Projects(){
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
       Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS",
       github:"https://github.com/vembarasugn",
-      livereview:"https://vembarasandev.s3.amazonaws.com/index.html",
+      livereview:"https://storypagesapp.herokuapp.com/",
       image:require("./images/storypages.png")   
     },
     {
