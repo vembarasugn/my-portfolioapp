@@ -17,7 +17,7 @@ body{
 /* About -- section */
 
 .sec-abt{
-  padding-bottom: 10px;
+  padding-bottom:1px;
   width: 100%;
   transition: 1s; 
   opacity: 1; 
@@ -40,13 +40,13 @@ body{
 }
 
 .heading {
-  margin-top:85px;
+  margin-top:50px;
   text-align:center;
   color:#635666;
   text-transform:none;
   font-size:42px;
   font-weight:200; 
-  padding-bottom: 20px;   
+  padding-bottom: 70px;   
 }
 
 /* timeline */
@@ -62,10 +62,14 @@ body{
 
 /* Project -- section */
 
-/* .card-touch:hover{
- background-color:aliceblue;
- font-size:18px;
-} */
+.card-hover:hover{
+ background-color:rgb(137, 151, 196);
+ border:none;
+} 
+
+.button-hover:hover{
+  background-color:#635666;
+}
 
 .project--header{
   font-size:42px;
