@@ -59,7 +59,7 @@ function Projects(){
       description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas. You can simply search according to your criteria to opt them",
       Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API ",
       github:"https://github.com/vembarasugn",
-      livereview:"https://www.geekz.school/",
+      livereview:"https://my-estateapps.vercel.app/",
       image:require("./images/house.png")    
     },
     { 
