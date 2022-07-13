@@ -105,9 +105,9 @@ function Projects(){
             lg={4}
             xl={4}
             style={{ display: "flex", justifyContent: "center"}}
-            key={list.id}
+             key={list.id}
           > 
-         <Card sx={{ maxWidth: 356 }} className="card-hover" style={{backgroundColor:"#f3f3f3f1", borderRadius:"16px" , maxHeight:"515px", borderColor:"grey", borderWidth:"3px"}} variant="outlined"> 
+         <Card sx={{minWidth:335 , maxWidth:335}} className="card-hover" style={{backgroundColor:"#f3f3f3f1", borderRadius:"16px" , maxHeight:"515px", borderColor:"grey", borderWidth:"3px"}} variant="outlined"> 
           <CardActionArea >
           <CardMedia
            component="img"
