@@ -11,20 +11,18 @@ import Particle from "./Particle";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width:theme.spacing(40),
-    height:theme.spacing(40),
+    width:theme.spacing(35),
+    height:theme.spacing(35),
     marginTop:theme.spacing(25),
-    marginBottom:theme.spacing(10),
+    marginBottom:theme.spacing(7),
     borderRadius:theme.spacing(2)
   },
   title: {
-    color: "rgb(1, 1, 22)",
-    opacity:"0.7"  
+    color: "rgb(1, 1, 22)", 
   },
   subtitle: {
     color: "rgb(1, 1, 22)",
-    marginTop:12,
-    opacity:"0.7"
+    marginTop:12
   },
   typedContainer: {
     position: "relative",
@@ -33,10 +31,14 @@ const useStyles = makeStyles((theme) => ({
     transform: "translate(-50%,-50%)",
     width: "100%",
     textAlign: "center",
-    marginTop:300,
-    marginBottom:-220
+    marginTop:255,
+    marginBottom:-180
+  },
+  gridContainer:{
+     margin:35
   },
 }));
+  
 
 function Home(){
 
@@ -48,10 +50,11 @@ function Home(){
       <Grid container justifyContent="center">
         <Avatar className={classes.avatar} src={profilepic} alt="Vembarasan N"/>
       </Grid>
-      <Typography className={classes.title} variant="h3">
+      <Grid className={classes.gridContainer}>
+      <Typography className={classes.title} variant="h4">
         <Typed strings={["Hello , I am Vembarasan Nagarajan"]} typeSpeed={80} />
       </Typography>
-      <Typography className={classes.subtitle} variant="h4">
+      <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
             "Automation Test Engineer",
@@ -63,6 +66,7 @@ function Home(){
           backSpeed={80} 
         />
       </Typography> 
+      </Grid>
       <Particle/>
     </Box>
     </section>
@@ -70,3 +74,5 @@ function Home(){
 };
 
 export default Home;
+
+
