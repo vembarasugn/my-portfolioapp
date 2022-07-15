@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import Particle from "./Particle";
+import AnimateStyled from "animate-styled"
 import {
   Homebody,
   Content,
@@ -31,16 +32,18 @@ function Homenew(){
             />
             </Text>
             <TextHobbies> I enjoy reading books and listening to music..!🎧📚</TextHobbies>
+            <AnimateStyled name="fadeIn">
             <Button 
              href="https://www.linkedin.com/in/vembarasan-nagarajan-09797b37/"
              target="_blank"
              rel="noopener"
-             primary>Hire Me</Button>
+             primary>Hire Me</Button> 
             <RightButton 
              href="https://github.com/vembarasugn"
              target="_blank"
              rel="noopener"
              primary>GitHub</RightButton>
+            </AnimateStyled>
           </Content>
           <ImageContainer>
             <Image/>

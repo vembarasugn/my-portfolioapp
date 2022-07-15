@@ -119,24 +119,6 @@ export const Button = styled.a`
   margin-top: 7em;
 
   &:hover {
-  animation: shake 0.70s cubic-bezier(.32,.08,.20,.87) both;
-  transform: translate3d(0, 0, 0);
-  perspective: 700px;
-
-  @keyframes shake {
-  
-    20%, 70% {
-      transform: translate3d(2px, 0, 0);
-    }
-    30%, 50%, 70% {
-      transform: translate3d(-2px, 0, 0);
-    }
-    40%, 60% {
-      transform: translate3d(2px, 0, 0);
-    }
-  }
-  
-  
   background-color:Transparent;
   color: ${props => props.primary ? "grey" : "grey"};
   }
