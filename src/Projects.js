@@ -82,12 +82,12 @@ function Projects(){
     },
     { 
       id:"7", 
-      Projectname:"My Airbnb Clone Card",
-      description:"Just a simple project that demonstartes some react JS skill.",
-      Technologies:" ReactJS . HTML5 . CSS3 . Javascript ",
+      Projectname:"A Simple Web ScraperAPI",
+      description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
+      Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript ",
       github:"https://github.com/vembarasugn",
       livereview:"https://pensive-pasteur-9caf2a.netlify.app/",
-      image:require("./images/Airbnb.png") 
+      image:require("./images/Scraper.png") 
     },
    ]};
 
