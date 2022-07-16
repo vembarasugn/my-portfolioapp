@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import profilepic from "./images/profilepic.JPG";
+import profilepic from "./images/profilepic.png";
 
 export const Homebody = styled.div`
  display: flex;
@@ -59,7 +59,7 @@ export const TextHobbies = styled.p`
 `;
 
 export const ImageContainer = styled.div`
- padding-top: 5.2em;
+ padding-top: 5.3em;
  padding-right: 7.8em;
 `;
 
@@ -68,9 +68,9 @@ export const Image = styled.div`
  background-size: contain;
  background-repeat: no-repeat;
  border-radius:15px;
- height:18em;
- width: 18em;
- margin-top:2em;
+ height:22em;
+ width: 19.5em;
+ margin-top:2.2em;
  max-width: 100%;
  z-index: 0;
 
