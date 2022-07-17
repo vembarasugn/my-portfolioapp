@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 import profilepic from "./images/profilepic.png";
 
 export const Homebody = styled.div`
@@ -14,14 +14,13 @@ export const Homebody = styled.div`
   flex-direction:column;
   padding-bottom:1.8em;
   margin-top:0.8em;
-  padding-left:0.8em;
-  margin-top:1.5em;
- }
+  margin-left:1.7em;
+}
   @media screen and (max-width:1200px){
     flex-direction:relative;
-    padding-bottom:1.8em;
+    padding-bottom:0.2em;
     margin-top:0.8em;
-    padding-left:0.07em;
+    padding-left:0.05em;
     margin-top:1.3em;
 }
 `;
@@ -36,7 +35,7 @@ export const Text = styled.p`
  @media screen and (max-width:770px){
   justify-content:center;
   align-items:center;
-  padding-left:0.4em;
+  margin-left:0.4em;
   margin-top:0.6em;
 }
 `;
@@ -53,8 +52,8 @@ export const TextHobbies = styled.p`
  @media screen and (max-width:770px){
   justify-content:center;
   align-items:center;
-  padding-left:0.4em;
-  padding-top:0.5em;
+  margin-left:1.2em;
+  margin-top:1.5em;
 }
 `;
 
@@ -68,7 +67,7 @@ export const Image = styled.div`
  background-size: contain;
  background-repeat: no-repeat;
  border-radius:15px;
- height:22em;
+ height:26em;
  width: 19.5em;
  margin-top:2.2em;
  max-width: 100%;
@@ -80,16 +79,15 @@ export const Image = styled.div`
   border-radius:15px;
   margin-top:0.6em;
   margin-bottom:1em;
-  padding-left:2.5em;
-
- }
+  margin-left:2.5em;
+}
  @media screen and (max-width:1200px){
   height:17.5em;
   width:17.5em;
   border-radius:15px;
   margin-top:1em;
   margin-left:5em;
-  padding-bottom:1em;
+  margin-bottom:1em;
  }
 `;
 
@@ -100,49 +98,43 @@ export const Content = styled.div`
  @media screen and (max-width:770px){
   flex-direction:column;
   padding:0;
-  padding-bottom:2em;
+  padding-bottom:0em;
   margin-left:0.4em;
   margin-top:1.5em;
  }
 `;
 
-export const Button = styled.a`
-  background: ${props => props.primary ? "#ECB390" : "white"};
-  color: ${props => props.primary ? "white" : "#ECB390"};
-
-  font-size: 1em;
-  font-weight:bold;
-  margin: 1em;
-  padding: 0.4em 2.8em;
+export const Button = styled.button`
+  border-radius:4px;
   border: 3px solid #ECB390 ;
-  border-radius: 3px;
-  margin-top: 7em;
+  margin: 0.6em 1.2em;
+  padding: 0.26em 1.2em;
+  
+  ${props => props.primary && css`
+  background:#ECB390;
+  color:grey;
+  `}
 
   &:hover {
   background-color:Transparent;
-  color: ${props => props.primary ? "grey" : "grey"};
-  }
+  ${props => props.primary && css`
+  background:grey;
+  color:white;
+  `}
 
   &:focus,&:visited,&:link,&:active {
     text-decoration: none;
   }
-  
-  @media screen and (max-width: 770px) {
-  margin-top:1.5em;
-  flex-direction:relative;
-  padding-bottom:1.8em;
-  padding-left:0.1em;
-
-  @media screen and (max-width: 1200px) {
-    margin-top:1.5em;
-    flex-direction:relative;
-    padding-bottom:1.8em;
-    padding-left:0.2em;
-  }
 `;
-  
+
 export const RightButton = styled(Button)`
   color:#ECB390;
   border-color: grey;
-  background-color:Transparent;
+  background-color:Transparent; 
+
+  &:hover {
+    background:Transparent;
+    color:grey;
+    border-color:#ECB390;
+  }
 `;

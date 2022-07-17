@@ -6,8 +6,8 @@ import {
   Homebody,
   Content,
   Button,
-  Text,
   RightButton,
+  Text,
   TextHobbies,
   ImageContainer,
   Image
@@ -38,11 +38,11 @@ function Homenew(){
              target="_blank"
              rel="noopener"
              primary>Hire Me</Button> 
-            <RightButton 
+            <RightButton
              href="https://github.com/vembarasugn"
              target="_blank"
              rel="noopener"
-             primary>GitHub</RightButton>
+             >GitHub</RightButton>
             </AnimateStyled>
           </Content>
           <ImageContainer>
