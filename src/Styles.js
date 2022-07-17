@@ -107,9 +107,8 @@ export const Content = styled.div`
 export const Button = styled.button`
   border-radius:4px;
   border: 3px solid #ECB390 ;
-  margin: 0.6em 1.2em;
-  padding: 0.26em 1.2em;
-  font-size:0.9em;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
   text-decoration:none;
   
   ${props => props.primary && css`
