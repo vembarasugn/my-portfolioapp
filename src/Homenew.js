@@ -33,12 +33,12 @@ function Homenew(){
             </Text>
             <TextHobbies> I enjoy reading books and listening to music..!🎧📚</TextHobbies>
             <AnimateStyled name="fadeIn">
-            <Button 
+            <Button as="a"
              href="https://www.linkedin.com/in/vembarasan-nagarajan-09797b37/"
              target="_blank"
              rel="noopener"
              primary>Hire Me</Button> 
-            <RightButton
+            <RightButton as="a"
              href="https://github.com/vembarasugn"
              target="_blank"
              rel="noopener"

@@ -14,14 +14,14 @@ export const Homebody = styled.div`
   flex-direction:column;
   padding-bottom:1.8em;
   margin-top:0.8em;
-  margin-left:1.7em;
+  margin-left:1.4em;
 }
   @media screen and (max-width:1200px){
     flex-direction:relative;
     padding-bottom:0.2em;
     margin-top:0.8em;
     padding-left:0.05em;
-    margin-top:1.3em;
+    margin-left:1.4em;
 }
 `;
 
@@ -109,6 +109,8 @@ export const Button = styled.button`
   border: 3px solid #ECB390 ;
   margin: 0.6em 1.2em;
   padding: 0.26em 1.2em;
+  font-size:0.9em;
+  text-decoration:none;
   
   ${props => props.primary && css`
   background:#ECB390;
@@ -121,10 +123,6 @@ export const Button = styled.button`
   background:grey;
   color:white;
   `}
-
-  &:focus,&:visited,&:link,&:active {
-    text-decoration: none;
-  }
 `;
 
 export const RightButton = styled(Button)`
