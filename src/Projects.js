@@ -86,7 +86,7 @@ function Projects(){
       description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
       Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript ",
       github:"https://github.com/vembarasugn",
-      livereview:"https://scraperapiapp.herokuapp.com/",
+      livereview:"https://webscrapingapiapp.herokuapp.com/",
       image:require("./images/Scraper.png") 
     },
    ]};
