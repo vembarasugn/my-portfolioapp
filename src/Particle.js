@@ -19,7 +19,7 @@ function Particle(){
             bubble: {
               distance: 100,
               duration: 2,
-              opacity: 0.8,
+              opacity: 0.1,
               size: 10,
             },
             push: {
@@ -47,7 +47,7 @@ function Particle(){
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 4,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -58,7 +58,7 @@ function Particle(){
             value: 40,
           },
           opacity: {
-            value: 0.7,
+            value: 0.1,
           },
           shape: {
             type: "edge",

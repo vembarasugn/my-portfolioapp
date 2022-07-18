@@ -8,20 +8,20 @@ export const Homebody = styled.div`
  min-height: 100%;
  padding-bottom: 6rem;
  position: relative;
- margin-top: 3em;
+ margin-top: 2em;
 
  @media screen and (max-width:770px){
   flex-direction:column;
   padding-bottom:1.8em;
   margin-top:0.8em;
-  margin-left:1.4em;
+  margin-left:1em;
 }
   @media screen and (max-width:1200px){
     flex-direction:relative;
     padding-bottom:0.2em;
     margin-top:0.8em;
     padding-left:0.05em;
-    margin-left:1.4em;
+    margin-left:1em;
 }
 `;
 
@@ -52,42 +52,36 @@ export const TextHobbies = styled.p`
  @media screen and (max-width:770px){
   justify-content:center;
   align-items:center;
-  margin-left:1.2em;
+  margin-left:1em;
   margin-top:1.5em;
 }
 `;
 
 export const ImageContainer = styled.div`
- padding-top: 5.3em;
- padding-right: 7.8em;
+ padding-top: 4em;
+ padding-right: 8em;
 `;
 
 export const Image = styled.div`
  background-image: url(${profilepic});
  background-size: contain;
  background-repeat: no-repeat;
- border-radius:15px;
- height:26em;
- width: 19.5em;
- margin-top:2.2em;
+ border-radius:0.6em;
+ height:20em;
+ width:20em;
+ margin-top:2em;
  max-width: 100%;
  z-index: 0;
 
  @media screen and (max-width:1400px){
   height:20em;
   width:20em;
-  border-radius:15px;
-  margin-top:0.6em;
-  margin-bottom:1em;
-  margin-left:2.5em;
+  margin:2.5em;
 }
  @media screen and (max-width:1200px){
-  height:17.5em;
-  width:17.5em;
-  border-radius:15px;
-  margin-top:1em;
-  margin-left:5em;
-  margin-bottom:1em;
+  height:18em;
+  width:18em;
+  margin:3.5em;
  }
 `;
 
