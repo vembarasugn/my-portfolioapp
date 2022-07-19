@@ -15,14 +15,14 @@ export const Homebody = styled.div`
   padding-bottom:1.8em;
   margin-top:0.8em;
   margin-left:1em;
-}
+  }
   @media screen and (max-width:1200px){
     flex-direction:relative;
     padding-bottom:0.2em;
     margin-top:0.8em;
     padding-left:0.05em;
     margin-left:1em;
-}
+  }
 `;
 
 export const Text = styled.p`
@@ -37,7 +37,7 @@ export const Text = styled.p`
   align-items:center;
   margin-left:0.4em;
   margin-top:0.6em;
-}
+ }
 `;
 
 export const TextHobbies = styled.p`
@@ -48,13 +48,14 @@ export const TextHobbies = styled.p`
  font-family:'Roboto Condensed';
  font-weight:bold;
  margin-bottom:3em;
+ margin-left:0.5em;
 
  @media screen and (max-width:770px){
   justify-content:center;
   align-items:center;
   margin-left:1em;
   margin-top:1.5em;
-}
+ }
 `;
 
 export const ImageContainer = styled.div`
@@ -67,21 +68,27 @@ export const Image = styled.div`
  background-size: contain;
  background-repeat: no-repeat;
  border-radius:0.6em;
- height:20em;
- width:20em;
+ height:18.5em;
+ width:18.5em;
  margin-top:2em;
  max-width: 100%;
  z-index: 0;
 
  @media screen and (max-width:1400px){
-  height:20em;
-  width:20em;
+  height:18.5em;
+  width:18.5em;
   margin:2.5em;
-}
+ }
  @media screen and (max-width:1200px){
-  height:18em;
-  width:18em;
+  height:18.5em;
+  width:18.5em;
   margin:3.5em;
+  margin-top:2em;
+ }
+ @media screen and (max-width:550px){ 
+  margin-left:4.5em;
+  margin-top:-2em;
+  margin-bottom:-7.2em;
  }
 `;
 
