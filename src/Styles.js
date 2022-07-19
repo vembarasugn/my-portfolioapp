@@ -6,7 +6,7 @@ export const Homebody = styled.div`
  flex-direction: row;
  padding: 0px 3.5rem 0 3.5rem;
  min-height: 100%;
- padding-bottom: 6rem;
+ padding-bottom: 3.5rem;
  position: relative;
  margin-top: 2em;
 
@@ -17,11 +17,11 @@ export const Homebody = styled.div`
   margin-left:1em;
   }
   @media screen and (max-width:1200px){
-    flex-direction:relative;
-    padding-bottom:0.2em;
-    margin-top:0.8em;
-    padding-left:0.05em;
-    margin-left:1em;
+  flex-direction:relative;
+  padding-bottom:0.2em;
+  margin-top:0.8em;
+  padding-left:0.05em;
+  margin-left:1em;
   }
 `;
 
@@ -59,8 +59,9 @@ export const TextHobbies = styled.p`
 `;
 
 export const ImageContainer = styled.div`
- padding-top: 4em;
+ padding-top: 4.6em;
  padding-right: 8em;
+ padding-bottom:7.2em;
 `;
 
 export const Image = styled.div`
@@ -73,22 +74,27 @@ export const Image = styled.div`
  margin-top:2em;
  max-width: 100%;
  z-index: 0;
-
+ 
  @media screen and (max-width:1400px){
   height:18.5em;
   width:18.5em;
   margin:2.5em;
  }
  @media screen and (max-width:1200px){
-  height:18.5em;
-  width:18.5em;
   margin:3.5em;
   margin-top:2em;
  }
- @media screen and (max-width:550px){ 
+ @media screen and (max-width:750px){
   margin-left:4.5em;
   margin-top:-2em;
-  margin-bottom:-7.2em;
+  margin-bottom:-7.8em
+ }
+ @media screen and (max-width:545px){
+  height:14em;
+  width:14em; 
+  margin-left:4.5em;
+  margin-top:-2em;
+  margin-bottom:-7em;
  }
 `;
 
