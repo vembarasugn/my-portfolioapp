@@ -56,7 +56,7 @@ function Projects(){
     { 
       id:"4",
       Projectname:"Housing Platform App - rent and buy houses",
-      description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas. You can simply search according to your criteria to opt them",
+      description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas.",
       Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API . Vercel",
       github:"https://github.com/vembarasugn",
       livereview:"https://my-estateapps.vercel.app/",
