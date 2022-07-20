@@ -29,7 +29,7 @@ function Projects(){
        id:"1",
        Projectname:"Helens guided Tours - a complete Tour guide",
        description:"Helens guided tours is one of a genuine tour management organization.A complete tour guide across united kingdom from Helens.",
-       Technologies:" HTML5 . CSS3 . Javascript . Bootstrap ",
+       Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . Netlify",
        github:"https://github.com/vembarasugn",
        livereview:"https://hellenstour.netlify.app",
        imageURL:"https://images.app.goo.gl/txMPwEg43NKcSzxj6",
@@ -39,7 +39,7 @@ function Projects(){
       id:"2",
       Projectname:"Geekz Microschool - American School",
       description:"Geekz (K-5) is a full-stack Education Technology company - Network of Microschools small by design, powered by technology.",
-      Technologies:" HTML5 . CSS3 . Javascript . Bootstrap ",
+      Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . AWS",
       github:"https://github.com/vembarasugn",
       livereview:"https://www.geekz.school/",
       image:require("./images/school.png")  
@@ -48,7 +48,7 @@ function Projects(){
       id:"3",
       Projectname:"My Portfolio App - career walkthrough",
       description:"This portfolio app will help you to know in depth about my skillsets that I works and projects have built.A overview of all new technologies that I have used. ",
-      Technologies:" HTML5 . CSS3 . ReactJS . NodeJS . Material-UI . TypeScript",
+      Technologies:" HTML5 . CSS3 . ReactJS . NodeJS . Material-UI . TypeScript . Netlify",
       github:"https://github.com/vembarasugn",
       livereview:"https://vembarasanportfolio.netlify.app",
       image:require("./images/portfolio.png")
@@ -57,7 +57,7 @@ function Projects(){
       id:"4",
       Projectname:"Housing Platform App - rent and buy houses",
       description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas. You can simply search according to your criteria to opt them",
-      Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API ",
+      Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API . Vercel",
       github:"https://github.com/vembarasugn",
       livereview:"https://my-estateapps.vercel.app/",
       image:require("./images/house.png")    
@@ -66,7 +66,7 @@ function Projects(){
       id:"5",
       Projectname:"Story pages application - a note taking system",
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
-      Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS",
+      Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . Heroku",
       github:"https://github.com/vembarasugn",
       livereview:"https://storypagesapp.herokuapp.com/",
       image:require("./images/storypages.png")   
@@ -75,7 +75,7 @@ function Projects(){
       id:"6",
       Projectname:"My Travel Journey Card - simple card design",
       description:"Just a simple project that demonstartes some react JS skill.It gives you an overview of creating google maps with location using google maps API.",
-      Technologies:" ReactJS . HTML5 . CSS3 . Javascript . GoogleMaps API", 
+      Technologies:" ReactJS . HTML5 . CSS3 . Javascript . GoogleMaps API . Netlify", 
       github:"https://github.com/vembarasugn",
       livereview:"https://pensive-pasteur-9caf2a.netlify.app/",
       image:require("./images/travel.png")  
@@ -84,7 +84,7 @@ function Projects(){
       id:"7", 
       Projectname:"A Simple Web ScraperAPI",
       description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
-      Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript ",
+      Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript . Heroku",
       github:"https://github.com/vembarasugn",
       livereview:"https://webscrapingapiapp.herokuapp.com/",
       image:require("./images/Scraper.png") 

@@ -26,11 +26,11 @@ export const Homebody = styled.div`
 `;
 
 export const Text = styled.p`
- font-size: 3.2em;
+ font-size: 3em;
  color: grey;
  padding-top:0;
  font-style:10px;
- font-family:'monospace';
+ font-family: Copperplate Gothic Light;
 
  @media screen and (max-width:770px){
   justify-content:center;
@@ -41,11 +41,11 @@ export const Text = styled.p`
 `;
 
 export const TextHobbies = styled.p`
- font-size: 1.2em;
+ font-size: 1em;
  color: grey;
  margin-top: 2em;
  font-style:italic;
- font-family:'Roboto Condensed';
+ font-family:Copperplate Gothic Light;
  font-weight:bold;
  margin-bottom:3em;
  margin-left:0.5em;
@@ -60,7 +60,7 @@ export const TextHobbies = styled.p`
 
 export const ImageContainer = styled.div`
  padding-top: 4.6em;
- padding-right: 8em;
+ padding-right:7.5em;
  padding-bottom:7.2em;
 `;
 
