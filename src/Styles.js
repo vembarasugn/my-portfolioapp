@@ -68,7 +68,8 @@ export const Image = styled.div`
  background-image: url(${profilepic});
  background-size: contain;
  background-repeat: no-repeat;
- border-radius:0.6em;
+ border:0.3em solid grey;
+ border-radius:0.2em;
  height:18.5em;
  width:18.5em;
  margin-top:2em;
