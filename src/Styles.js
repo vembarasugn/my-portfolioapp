@@ -61,7 +61,7 @@ export const TextHobbies = styled.p`
 export const ImageContainer = styled.div`
  padding-top: 4.6em;
  padding-right:7.5em;
- padding-bottom:7.2em;
+ padding-bottom:0.5em;
 `;
 
 export const Image = styled.div`
@@ -69,7 +69,7 @@ export const Image = styled.div`
  background-size: contain;
  background-repeat: no-repeat;
  border:0.3em solid grey;
- border-radius:0.2em;
+ border-radius:0.3em;
  height:18.5em;
  width:18.5em;
  margin-top:2em;
@@ -91,11 +91,8 @@ export const Image = styled.div`
   margin-bottom:-7.8em
  }
  @media screen and (max-width:545px){
-  height:14em;
-  width:14em; 
-  margin-left:4.5em;
-  margin-top:-2em;
-  margin-bottom:-7em;
+  visibility:invisible;
+  display:none;
  }
 `;
 
