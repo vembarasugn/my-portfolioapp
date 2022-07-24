@@ -14,7 +14,7 @@ export const Homebody = styled.div`
   flex-direction:column;
   padding-bottom:1.8em;
   margin-top:0.8em;
-  margin-left:1em;
+  margin-left:2em;
   }
   @media screen and (max-width:1200px){
   flex-direction:relative;
@@ -30,7 +30,7 @@ export const Text = styled.p`
  color: grey;
  padding-top:0;
  font-style:10px;
- font-family: Copperplate Gothic Light;
+ font-family: monospaced;
 
  @media screen and (max-width:770px){
   justify-content:center;
@@ -45,10 +45,10 @@ export const TextHobbies = styled.p`
  color: grey;
  margin-top: 2em;
  font-style:italic;
- font-family:Copperplate Gothic Light;
+ font-family:monospaced;
  font-weight:bold;
  margin-bottom:3em;
- margin-left:0.5em;
+ margin-left:0.4em;
 
  @media screen and (max-width:770px){
   justify-content:center;
@@ -86,7 +86,7 @@ export const Image = styled.div`
   margin-top:2em;
  }
  @media screen and (max-width:750px){
-  margin-left:4.5em;
+  margin-left:5.5em;
   margin-top:-2em;
   margin-bottom:-7.8em
  }
@@ -98,7 +98,7 @@ export const Image = styled.div`
 
 export const Content = styled.div`
  padding-top: 6em;
- padding-left: 8em;
+ padding-left: 4.3em;
 
  @media screen and (max-width:770px){
   flex-direction:column;
@@ -112,8 +112,8 @@ export const Content = styled.div`
 export const Button = styled.button`
   border-radius:4px;
   border: 3px solid #ECB390 ;
-  margin: 0.5em 1em;
-  padding: 0.25em 1em;
+  margin: 0.5em 0.8em;
+  padding: 0.25em 0.8em;
   text-decoration:none;
   
   ${props => props.primary && css`
