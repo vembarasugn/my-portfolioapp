@@ -23,7 +23,7 @@ function SocialTab() {
           <FontAwesomeIcon icon={faFacebook} size="2x"/>
         </a>
         <a
-          target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/in/vembarasan-nagarajan-09797b37/"
+          target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/in/vembarasan-nagarajan-he-him-09797b37/"
           className="linkedin social"
         >
           <FontAwesomeIcon icon={faLinkedin} size="2x"/>
@@ -34,7 +34,7 @@ function SocialTab() {
         >
           <FontAwesomeIcon icon={faGithub} size="2x"/>
         </a>
-        <a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/home" 
+        <a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/vembarasan25" 
            className="twitter social">
           <FontAwesomeIcon icon={faTwitter} size="2x"/>
         </a>

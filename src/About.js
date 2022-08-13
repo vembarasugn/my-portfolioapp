@@ -51,9 +51,13 @@ function About(){
       {
         id:"6",
         Skillname:"Operating Systems",
-        Technologies:"Windows . Mac . Linux ",
-     }, 
-     
+        Technologies:"Windows . Mac . Linux",
+      }, 
+      {
+        id:"6",
+        Skillname:"Cloud Technologies",
+        Technologies:"AWS . Heroku . Netlify . Vercel",
+      } 
      ],
         Edudata: [
         { 
