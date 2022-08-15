@@ -66,7 +66,7 @@ function Projects(){
       id:"5",
       Projectname:"Story pages application - a note taking system",
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
-      Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . Heroku",
+      Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . mongoDB . Heroku",
       github:"https://github.com/vembarasugn",
       livereview:"https://storypagesapp.herokuapp.com/",
       image:require("./images/storypages.png")   
