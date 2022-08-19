@@ -49,7 +49,7 @@ function Projects(){
       Projectname:"My Portfolio App - career walkthrough",
       description:"This portfolio app will help you to know in depth about my skillsets that I works and projects have built.A overview of all new technologies that I have used. ",
       Technologies:" HTML5 . CSS3 . ReactJS . NodeJS . Material-UI . TypeScript . Netlify",
-      github:"https://github.com/vembarasugn",
+      github:"https://github.com/vembarasugn/my-portfolioapp",
       livereview:"https://vembarasanportfolio.netlify.app",
       image:require("./images/portfolio.png")
     },
@@ -58,7 +58,7 @@ function Projects(){
       Projectname:"Housing Platform App - rent and buy houses",
       description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas.",
       Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API . Vercel",
-      github:"https://github.com/vembarasugn",
+      github:"https://github.com/vembarasugn/my-estateapp",
       livereview:"https://my-estateapps.vercel.app/",
       image:require("./images/house.png")    
     },
@@ -67,7 +67,7 @@ function Projects(){
       Projectname:"Story pages application - a note taking system",
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
       Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . mongoDB . Heroku",
-      github:"https://github.com/vembarasugn",
+      github:"https://github.com/vembarasugn/Storypagesapp",
       livereview:"https://storypagesapp.herokuapp.com/",
       image:require("./images/storypages.png")   
     },
@@ -85,9 +85,18 @@ function Projects(){
       Projectname:"A Simple Web ScraperAPI",
       description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
       Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript . Heroku",
-      github:"https://github.com/vembarasugn",
+      github:"https://github.com/vembarasugn/WebscrapingAPIapp",
       livereview:"https://webscrapingapiapp.herokuapp.com/",
       image:require("./images/Scraper.png") 
+    },
+    { 
+      id:"7", 
+      Projectname:"Advora Raect APP",
+      description:"This will be helpfull in scraping web and I have used sample API  to scrap something like products,reviews and searching products.",
+      Technologies:" NodeJS . ReactJS . Apexcharts . ChartJS2 . MaterialUI . Cloudflarepages",
+      github:"https://github.com/vembarasugn/advora-api",
+      livereview:"https://advora-api.pages.dev/",
+      image:require("./images/Webscraper.png") 
     },
    ]};
 
