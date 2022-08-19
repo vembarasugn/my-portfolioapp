@@ -90,14 +90,14 @@ function Projects(){
       image:require("./images/Scraper.png") 
     },
     { 
-      id:"7", 
-      Projectname:"Advora Raect APP",
-      description:"This will be helpfull in scraping web and I have used sample API  to scrap something like products,reviews and searching products.",
+      id:"8", 
+      Projectname:"Advora Reactt APP",
+      description:"This will be helpfull in scraping web and I have used sample API  to map them in a cards and visualising those data.",
       Technologies:" NodeJS . ReactJS . Apexcharts . ChartJS2 . MaterialUI . Cloudflarepages",
       github:"https://github.com/vembarasugn/advora-api",
       livereview:"https://advora-api.pages.dev/",
       image:require("./images/Webscraper.png") 
-    },
+    }
    ]};
 
     return(
