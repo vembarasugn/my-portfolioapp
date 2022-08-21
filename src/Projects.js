@@ -91,8 +91,8 @@ function Projects(){
     },
     { 
       id:"8", 
-      Projectname:"Advora Reactt APP",
-      description:"This will be helpfull in scraping web and I have used sample API  to map them in a cards and visualising those data.",
+      Projectname:"Advora React APP",
+      description:"This will be helpfull in fetching API from DB and I have used sample API to map them in a cards and visualising those data.",
       Technologies:" NodeJS . ReactJS . Apexcharts . ChartJS2 . MaterialUI . Cloudflarepages",
       github:"https://github.com/vembarasugn/advora-api",
       livereview:"https://advora-api.pages.dev/",
