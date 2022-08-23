@@ -2,13 +2,13 @@ import styled, {css} from "styled-components";
 import profilepic from "./images/profilepic.png";
 
 export const Homebody = styled.div`
- display: flex;
- flex-direction: row;
- padding: 0px 3.5rem 0 3.5rem;
- min-height: 100%;
- padding-bottom: 3.5rem;
- position: relative;
- margin-top: 2em;
+ display:flex;
+ flex-direction:row;
+ padding:0px 3.5rem 0 3.5rem;
+ min-height:100%;
+ padding-bottom:3.5rem;
+ position:relative;
+ margin-top:2em;
 
  @media screen and (max-width:770px){
   flex-direction:column;
@@ -26,11 +26,11 @@ export const Homebody = styled.div`
 `;
 
 export const Text = styled.p`
- font-size: 3em;
- color: grey;
+ font-size:3em;
+ color:grey;
  padding-top:0;
  font-style:10px;
- font-family: monospaced;
+ font-family:monospaced;
 
  @media screen and (max-width:770px){
   justify-content:center;
@@ -41,9 +41,9 @@ export const Text = styled.p`
 `;
 
 export const TextHobbies = styled.p`
- font-size: 1em;
- color: grey;
- margin-top: 2em;
+ font-size:1em;
+ color:grey;
+ margin-top:2em;
  font-style:italic;
  font-family:monospaced;
  font-weight:bold;
@@ -59,22 +59,22 @@ export const TextHobbies = styled.p`
 `;
 
 export const ImageContainer = styled.div`
- padding-top: 4.6em;
+ padding-top:4.6em;
  padding-right:7.5em;
  padding-bottom:0.5em;
 `;
 
 export const Image = styled.div`
- background-image: url(${profilepic});
- background-size: contain;
- background-repeat: no-repeat;
+ background-image:url(${profilepic});
+ background-size:contain;
+ background-repeat:no-repeat;
  border:0.1em solid grey;
  border-radius:0.3em;
  height:18.5em;
  width:18.5em;
  margin-top:2em;
- max-width: 100%;
- z-index: 0;
+ max-width:100%;
+ z-index:0;
  
  @media screen and (max-width:1400px){
   height:18.5em;
@@ -97,8 +97,8 @@ export const Image = styled.div`
 `;
 
 export const Content = styled.div`
- padding-top: 6em;
- padding-left: 4.3em;
+ padding-top:6em;
+ padding-left:4.3em;
 
  @media screen and (max-width:770px){
   flex-direction:column;
@@ -111,9 +111,9 @@ export const Content = styled.div`
 
 export const Button = styled.button`
   border-radius:4px;
-  border: 3px solid #ECB390 ;
-  margin: 0.5em 0.8em;
-  padding: 0.25em 0.8em;
+  border:3px solid #ECB390 ;
+  margin:0.5em 0.8em;
+  padding:0.25em 0.8em;
   text-decoration:none;
   
   ${props => props.primary && css`
@@ -131,7 +131,7 @@ export const Button = styled.button`
 
 export const RightButton = styled(Button)`
   color:#ECB390;
-  border-color: grey;
+  border-color:grey;
   background-color:Transparent; 
 
   &:hover {

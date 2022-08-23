@@ -19,7 +19,7 @@ function Homenew(){
     <section>
         <Homebody>
           <Content >
-           <Text>Hello there, I am Vembarasan Nagarajan.👋🏻</Text>
+           <Text>Hello there, I am <span className="span">Vembarasan</span> Nagarajan.👋🏻</Text>
            <Text>👨‍💻
            <Typed style={{ fontSize:28, color:"grey" }} strings={[
             "Automation Test Engineer",
