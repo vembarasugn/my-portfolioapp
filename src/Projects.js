@@ -92,7 +92,7 @@ function Projects(){
     { 
       id:"8", 
       Projectname:"Advora React APP",
-      description:"This will be helpfull in fetching API from DB and I have used sample API to map them in a cards and visualising those data.",
+      description:"This will be helpfull in fetching API data from DB and I have used sample API data to map them in a cards and visualising those data.",
       Technologies:" NodeJS . ReactJS . Apexcharts . ChartJS2 . MaterialUI . Cloudflarepages",
       github:"https://github.com/vembarasugn/advora-api",
       livereview:"https://advora-api.pages.dev/",
