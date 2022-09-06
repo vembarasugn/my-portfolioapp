@@ -27,7 +27,7 @@ function Projects(){
     Projectdata: [
     { 
        id:"1",
-       Projectname:"Helens guided Tours - a complete Tour guide",
+       Projectname:"Helens guided Tours - a complete Tour guide.",
        description:"Helens guided tours is one of a genuine tour management organization.A complete tour guide across united kingdom from Helens.",
        Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . Netlify",
        github:"https://github.com/vembarasugn",
@@ -37,7 +37,7 @@ function Projects(){
     },
     { 
       id:"2",
-      Projectname:"Geekz Microschool - American School",
+      Projectname:"Geekz Microschool - American School.",
       description:"Geekz (K-5) is a full-stack Education Technology company - Network of Microschools small by design, powered by technology.",
       Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . AWS",
       github:"https://github.com/vembarasugn",
@@ -46,7 +46,7 @@ function Projects(){
     },
     { 
       id:"3",
-      Projectname:"My Portfolio App - career walkthrough",
+      Projectname:"My Portfolio App - career walkthrough.",
       description:"This portfolio app will help you to know in depth about my skillsets that I works and projects have built.A overview of all new technologies that I have used. ",
       Technologies:" HTML5 . CSS3 . ReactJS . NodeJS . Material-UI . TypeScript . Netlify",
       github:"https://github.com/vembarasugn/my-portfolioapp",
@@ -55,7 +55,7 @@ function Projects(){
     },
     { 
       id:"4",
-      Projectname:"Housing Platform App - rent and buy houses",
+      Projectname:"Housing Platform App - rent and buy houses.",
       description:"Housing platform is a complete guide to do search , rent, buy Houses, aparments and Villas.",
       Technologies:" HTML5 . TailwindCSS . ReactJS . NextJS . Chakra-UI . Rapid API . Vercel",
       github:"https://github.com/vembarasugn/my-estateapp",
@@ -64,7 +64,7 @@ function Projects(){
     },
     { 
       id:"5",
-      Projectname:"Story pages application - a note taking system",
+      Projectname:"Story pages application - a story taking system.",
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
       Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . mongoDB . Heroku",
       github:"https://github.com/vembarasugn/Storypagesapp",
@@ -73,7 +73,7 @@ function Projects(){
     },
     {
       id:"6",
-      Projectname:"My Travel Journey Card - simple card design",
+      Projectname:"My Travel Journey Card - simple card design.",
       description:"Just a simple project that demonstartes some react JS skill.It gives you an overview of creating google maps with location using google maps API.",
       Technologies:" ReactJS . HTML5 . CSS3 . Javascript . GoogleMaps API . Netlify", 
       github:"https://github.com/vembarasugn",
@@ -82,21 +82,30 @@ function Projects(){
     },
     { 
       id:"7", 
-      Projectname:"A Simple Web ScraperAPI",
+      Projectname:"A Simple Web ScraperAPI - scraps web data.",
       description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
-      Technologies:" NodeJS . ExresppJS . ScraperAPI . Javascript . Heroku",
+      Technologies:" NodeJS . ExpressJS . CSS3. ScraperAPI . Javascript . Heroku",
       github:"https://github.com/vembarasugn/WebscrapingAPIapp",
       livereview:"https://webscrapingapiapp.herokuapp.com/",
       image:require("./images/Scraper.png") 
     },
     { 
       id:"8", 
-      Projectname:"Advora React APP",
+      Projectname:"Advora React APP- an education company.",
       description:"This will be helpfull in fetching API data from DB and I have used sample API data to map them in a cards and visualising those data.",
-      Technologies:" NodeJS . ReactJS . Apexcharts . ChartJS2 . MaterialUI . Cloudflarepages",
+      Technologies:" NodeJS . ReactJS . ChartJS2 . MaterialUI . Cloudflarepages",
       github:"https://github.com/vembarasugn/advora-api",
       livereview:"https://advora-api.pages.dev/",
       image:require("./images/Webscraper.png") 
+    },
+    { 
+      id:"9", 
+      Projectname:"A React-Notetaking APP- it records your notes.",
+      description:"This will be helpfull in taking notes and I have used reactJS to desing this entire app in a different way,lets check this out .",
+      Technologies:" HTML5 . CSS3 . Javascript . NodeJS . ReactJS . Cloudflarepages",
+      github:"https://github.com/vembarasugn/my-reactnotesapp",
+      livereview:"https://github.com/vembarasugn/my-reactnotesapp",
+      image:require("./images/taking-notes.png") 
     }
    ]};
 
