@@ -104,7 +104,7 @@ function Projects(){
       description:"This will be helpfull in taking notes and I have used reactJS to desing this entire app in a different way,lets check this out .",
       Technologies:" HTML5 . CSS3 . Javascript . NodeJS . ReactJS . Cloudflarepages",
       github:"https://github.com/vembarasugn/my-reactnotesapp",
-      livereview:"https://github.com/vembarasugn/my-reactnotesapp",
+      livereview:"https://my-reactnotesapp.pages.dev/",
       image:require("./images/taking-notes.png") 
     }
    ]};
@@ -160,7 +160,7 @@ function Projects(){
       ))}
       </Grid>
       <br/>
-      <h6 className="project-ref"> Note: Some projects have referred from online resources for learning and to built them.*</h6>
+      <h6 className="project-ref"> Note: Some projects have referred from online resources for learning and to built them. I thank those programming mentors to have this opportunity to learn*</h6>
       <br/>
     </section>
     )
