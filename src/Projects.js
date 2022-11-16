@@ -106,6 +106,24 @@ function Projects(){
       github:"https://github.com/vembarasugn/my-reactnotesapp",
       livereview:"https://my-reactnotesapp.pages.dev/",
       image:require("./images/taking-notes.png") 
+    },
+    { 
+      id:"10", 
+      Projectname:"A React-Chat APP- it takes to chat space.",
+      description:"This will be helpfull in integrating chat UI in your application and I have used CometChat custome SDK from their github repos.",
+      Technologies:" HTML5 . sass . Javascript . NodeJS . ReactJS . CometChat . Netlify",
+      github:"https://github.com/vembarasugn/react-chat-app",
+      livereview:"https://jade-stardust-a67b64.netlify.app",
+      image:require("./images/chatimage.png") 
+    },
+    { 
+      id:"10", 
+      Projectname:"A Fake json server API - data can be use in UI.",
+      description:"This will be helpfull in using Fake jsonserver API in your application and I have used these data for one of application API testing.",
+      Technologies:" Javascript . NodeJS . Jsonserver . Railway . VScode",
+      github:"https://github.com/vembarasugn/jsonserverAPI",
+      livereview:"https://jsonserverapi-production.up.railway.app/",
+      image:require("./images/json image.png") 
     }
    ]};
 
