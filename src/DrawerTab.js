@@ -128,7 +128,7 @@ function DrawerTab() {
           <IconButton onClick={handleDrawerClose} style={{color:"grey"}}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}  
           </IconButton>
-          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div" style={{color:"grey"}}> Select One </Typography>
+          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div" style={{color:"grey"}}></Typography>
         </DrawerHeader>
 
         <Divider />
