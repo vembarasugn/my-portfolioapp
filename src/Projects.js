@@ -99,15 +99,6 @@ function Projects(){
       image:require("./images/Webscraper.png") 
     },
     { 
-      id:"9", 
-      Projectname:"A React-Notetaking APP- it records your notes.",
-      description:"This will be helpfull in taking notes and I have used reactJS to desing this entire app in a different way,lets check this out .",
-      Technologies:" HTML5 . CSS3 . Javascript . NodeJS . ReactJS . Cloudflarepages",
-      github:"https://github.com/vembarasugn/my-reactnotesapp",
-      livereview:"https://my-reactnotesapp.pages.dev/",
-      image:require("./images/taking-notes.png") 
-    },
-    { 
       id:"10", 
       Projectname:"A React-Chat APP- it takes to chat space.",
       description:"This will be helpfull in integrating chat UI in your application and I have used CometChat custome SDK from their github repos.",
