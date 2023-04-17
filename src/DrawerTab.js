@@ -135,7 +135,7 @@ function DrawerTab() {
 
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemsList.map((item) => (
-            <ListItem button  style={{ height:"74px"}} key={item.id} onClick={() => navigate(item.path)}>
+            <ListItem button  style={{ height:"77px"}} key={item.id} onClick={() => navigate(item.path)}>
               <ListItemText style={{color:"grey",marginLeft:"60px"}}>{item.text} </ListItemText>
             </ListItem> 
           ))}
@@ -145,7 +145,7 @@ function DrawerTab() {
         <Divider/>
 
         <List style={{ backgroundColor:"#ECB390"}} >
-            <ListItem button  style={{ height:"71px"}} >
+            <ListItem button  style={{ height:"73px"}} >
               <ListItemText style={{marginLeft:"60px"}}>
               <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"grey"}}> EMail Me</a></ListItemText>
             </ListItem> 
@@ -154,7 +154,7 @@ function DrawerTab() {
         <Divider/>
         
         <List style={{ backgroundColor:"#ECB390"}}>
-            <ListItem button  style={{ height:"71px"}}>
+            <ListItem button  style={{ height:"73px"}}>
               <ListItemText style={{color:"grey",marginLeft:"60px"}}> 
                <a target="_blank" href="./Vembarasan N CV-updated.pdf" style={{ textDecoration:"none", color:"grey"}}>Get My CV </a></ListItemText>
             </ListItem> 
@@ -164,7 +164,7 @@ function DrawerTab() {
 
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemCalender.map((items) => (
-            <ListItem button key={items.id} style={{ height:"106px"}} onClick={()=> navigate(items.path)}>
+            <ListItem button key={items.id} style={{ height:"116px"}} onClick={()=> navigate(items.path)}>
              <ListItemIcon style={{marginLeft:"8px"}}>{items.icon}</ListItemIcon>
              <ListItemText style={{color:"grey"}}>{items.text}</ListItemText>
             </ListItem>
