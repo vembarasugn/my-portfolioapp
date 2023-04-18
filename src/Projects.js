@@ -99,7 +99,7 @@ function Projects(){
       image:require("./images/Webscraper.png") 
     },
     { 
-      id:"10", 
+      id:"9", 
       Projectname:"A React-Chat APP- it takes to chat space.",
       description:"This will be helpfull in integrating chat UI in your application and I have used CometChat custome SDK from their github repos.",
       Technologies:" HTML5 . sass . Javascript . NodeJS . ReactJS . CometChat . Netlify",
@@ -115,6 +115,69 @@ function Projects(){
       github:"https://github.com/vembarasugn/jsonserverAPI",
       livereview:"https://jsonserverapi-production.up.railway.app/",
       image:require("./images/json image.png") 
+    },
+    { 
+      id:"11", 
+      Projectname:"Autoviz - Automatic Visualization.",
+      description:"It will automatically analyse any given datasets and get most important features with in it , using those features it will plot impactful visualization in a single line of code.",
+      Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm",
+      github:"https://github.com/vembarasugn/Autoviz",
+      livereview:"https://github.com/vembarasugn/Autoviz",
+      image:require("./images/Auto_viz.png") 
+    },
+    { 
+      id:"12", 
+      Projectname:"ML-Credit Card Fraud Detection.",
+      description:"I have used Python Scientific Computing Libraries and Machine Learning Algorithm to do Credit Card Fraud Detection Analysis using Jupyter Notebook.",
+      Technologies:" Python . Jupyter Notebook .  Isolation Forest Algorithm",
+      github:"https://github.com/vembarasugn/creditcardfrauddetection",
+      livereview:"https://github.com/vembarasugn/creditcardfrauddetection",
+      image:require("./images/credit_card_PNG.png") 
+    },
+    { 
+      id:"13", 
+      Projectname:"Machine Learning - Lead Scoring.",
+      description:"I have used Python Scientific Computing Libraries and Machine Learning algorithms to develop this lead scoring to train data.",
+      Technologies:" Python . Jupyter Notebook .  Machine Learning Algorithm",
+      github:"https://github.com/vembarasugn/ML-LeadScoring",
+      livereview:"https://github.com/vembarasugn/ML-LeadScoring",
+      image:require("./images/lead-scoring.png") 
+    },
+    { 
+      id:"14", 
+      Projectname:"Google App Rating - Data Analysis.",
+      description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Google Play Store data for a full analysis.",
+      Technologies:" Python . Jupyter Notebook . Data Analysis",
+      github:"https://github.com/vembarasugn/Googleapprating-dataanalysis",
+      livereview:"https://github.com/vembarasugn/Googleapprating-dataanalysis",
+      image:require("./images/Google_Play_stars.png") 
+    },
+    { 
+      id:"15", 
+      Projectname:"Machine Learning with TensorFlow.",
+      description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Images data and to train them with Tensorflow.",
+      Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
+      github:"https://github.com/vembarasugn/Machinelearningwithtensorflow",
+      livereview:"https://github.com/vembarasugn/Machinelearningwithtensorflow",
+      image:require("./images/TensorFlow.png") 
+    },
+    { 
+      id:"16", 
+      Projectname:"WebScraping using Python Library.",
+      description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Beautifulsoup to scrap web data.",
+      Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
+      github:"https://github.com/vembarasugn/Webscraping-using-python-scientific-computing-libraries.",
+      livereview:"https://github.com/vembarasugn/Webscraping-using-python-scientific-computing-libraries.",
+      image:require("./images/Web-Scraping.png") 
+    },
+    { 
+      id:"17", 
+      Projectname:"Machine Learning - Marketing Attribution Models.",
+      description:"This will be picking up datasets randamonly and using them for analysis.If you do code walkthrough , you will get clear idea about that how it works",
+      Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
+      github:"https://github.com/vembarasugn/Marketing-Attribution-Models---Heuristic-Shapley-Value-Markov-chains.",
+      livereview:"https://github.com/vembarasugn/Marketing-Attribution-Models---Heuristic-Shapley-Value-Markov-chains.",
+      image:require("./images/MarketingAttribution.png") 
     }
    ]};
 
