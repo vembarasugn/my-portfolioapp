@@ -118,6 +118,16 @@ function Projects(){
     },
     { 
       id:"11", 
+      Projectname:"A React-Notetaking APP- it records your notes.",
+      description:"This will be helpfull in taking notes and I have used reactJS to desing this entire app in a different way,lets check this out .",
+      Technologies:" HTML5 . CSS3 . Javascript . NodeJS . ReactJS . Netlify",
+      github:"https://github.com/vembarasugn/my-reactnotesapp",
+      livereview:"https://my-reactnotesapp.netlify.app/",
+      image:require("./images/taking-notes.png") 
+    },
+
+    { 
+      id:"12", 
       Projectname:"Autoviz - Automatic Visualization.",
       description:"It will automatically analyse any given datasets and get most important features with in it , using those features it will plot impactful visualization in a single line of code.",
       Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm",
@@ -126,7 +136,7 @@ function Projects(){
       image:require("./images/Auto_viz.png") 
     },
     { 
-      id:"12", 
+      id:"13", 
       Projectname:"ML-Credit Card Fraud Detection.",
       description:"I have used Python Scientific Computing Libraries and Machine Learning Algorithm to do Credit Card Fraud Detection Analysis using Jupyter Notebook.",
       Technologies:" Python . Jupyter Notebook .  Isolation Forest Algorithm",
@@ -135,7 +145,7 @@ function Projects(){
       image:require("./images/credit_card_PNG.png") 
     },
     { 
-      id:"13", 
+      id:"14", 
       Projectname:"Machine Learning - Lead Scoring.",
       description:"I have used Python Scientific Computing Libraries and Machine Learning algorithms to develop this lead scoring to train data.",
       Technologies:" Python . Jupyter Notebook .  Machine Learning Algorithm",
@@ -144,7 +154,7 @@ function Projects(){
       image:require("./images/lead-scoring.png") 
     },
     { 
-      id:"14", 
+      id:"15", 
       Projectname:"Google App Rating - Data Analysis.",
       description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Google Play Store data for a full analysis.",
       Technologies:" Python . Jupyter Notebook . Data Analysis",
@@ -153,7 +163,7 @@ function Projects(){
       image:require("./images/Google_Play_stars.png") 
     },
     { 
-      id:"15", 
+      id:"16", 
       Projectname:"Machine Learning with TensorFlow.",
       description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Images data and to train them with Tensorflow.",
       Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
@@ -162,7 +172,7 @@ function Projects(){
       image:require("./images/TensorFlow.png") 
     },
     { 
-      id:"16", 
+      id:"17", 
       Projectname:"WebScraping using Python Library.",
       description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Beautifulsoup to scrap web data.",
       Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
@@ -171,7 +181,7 @@ function Projects(){
       image:require("./images/Web-Scraping.png") 
     },
     { 
-      id:"17", 
+      id:"18", 
       Projectname:"Machine Learning - Marketing Attribution Models.",
       description:"This will be picking up datasets randamonly and using them for analysis.If you do code walkthrough , you will get clear idea about that how it works",
       Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
@@ -232,7 +242,7 @@ function Projects(){
       ))}
       </Grid>
       <br/>
-      <h6 className="project-ref"> Note: Some projects have referred from online resources for learning and to built them. I thank those programming mentors to have this opportunity to learn*</h6>
+      <h6 className="project-ref"> Note: Some projects have referred from online resources for learning and to built them. I am thankful to those programming mentors to have such opportunity to learn*</h6>
       <br/>
     </section>
     )

@@ -132,7 +132,7 @@ function About(){
 
         <section>
           <div className='sec-abt'>
-              <p className='about-info'>Basically,I works in Software Automation testing, Web applications developement and Data Sciences. Experienced professional having experience in Software testing, Web applications developement and Data Analytics looking for an opportunity to work with technically challenged environments. Currenlty,I am looking forward to work with Software Quality Assurance Engineer,Front End Engineer, Data Engineer and Data Science .</p>
+              <p className='about-info'>Basically,I works with Software Automation testing, Web applications developement and Data Sciences. Experienced professional having experience in Software testing, Web applications developement and Data Analytics looking for an opportunity to work with technically challenged environments. Currenlty,I am looking forward to join as Senior Software Quality Assurance Engineer,Full Stack Engineer,Data Scientist and Scrum Master.</p>
            </div>
           <section>
             <h1 className="heading"> Technologies that I works with </h1>
