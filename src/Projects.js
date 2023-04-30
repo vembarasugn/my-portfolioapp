@@ -188,7 +188,17 @@ function Projects(){
       github:"https://github.com/vembarasugn/Marketing-Attribution-Models---Heuristic-Shapley-Value-Markov-chains.",
       livereview:"https://github.com/vembarasugn/Marketing-Attribution-Models---Heuristic-Shapley-Value-Markov-chains.",
       image:require("./images/MarketingAttribution.png") 
+    },
+    {
+      id:"19",
+      Projectname:"R Shiny App - BCL Data.",
+      description:"This app will be helpful to analyse data analysis.I have built this app using R and R shiny.",
+      Technologies:" R Language . R Studio . ShinyIO ",
+      github:"https://github.com/vembarasugn?tab=repositories",
+      livereview:"https://myrshiny1.shinyapps.io/Appshiny/",
+      image:require("./images/shinyimg.png")
     }
+
    ]};
 
     return(
