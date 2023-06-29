@@ -63,7 +63,7 @@ function Footer() {
      description ={description}
      title={title}
      columns={columns}
-     copyright="2022"
+     copyright="2023"
      iconColor="black"
      backgroundColor="#222831"
      fontColor="#F2F2F2"
