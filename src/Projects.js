@@ -68,7 +68,7 @@ function Projects(){
       description:"An application that will be helpful in taking notes and keep them upto date in order.It has categorised into public and private stories as you have your privacy.",
       Technologies:" HTML5 . CSS3 . NodeJS . ExpressJS . PassportJS . mongoDB . Heroku",
       github:"https://github.com/vembarasugn/Storypagesapp",
-      livereview:"https://storypagesapp.herokuapp.com/",
+      livereview:"https://storypages.onrender.com",
       image:require("./images/storypages.png")   
     },
     {
@@ -86,7 +86,7 @@ function Projects(){
       description:"This will be helpfull in scraping web and I have used Amazon website to scrap something like products,reviews and searching products.",
       Technologies:" NodeJS . ExpressJS . CSS3. ScraperAPI . Javascript . Heroku",
       github:"https://github.com/vembarasugn/WebscrapingAPIapp",
-      livereview:"https://webscrapingapiapp.herokuapp.com/",
+      livereview:"https://webscrap-2oeq.onrender.com/",
       image:require("./images/Scraper.png") 
     },
     { 
@@ -113,7 +113,7 @@ function Projects(){
       description:"This will be helpfull in using Fake jsonserver API in your application and I have used these data for one of application API testing.",
       Technologies:" Javascript . NodeJS . Jsonserver . Railway . VScode",
       github:"https://github.com/vembarasugn/jsonserverAPI",
-      livereview:"https://jsonserverapi-production.up.railway.app/",
+      livereview:"https://jsonserver-sugo.onrender.com/",
       image:require("./images/json image.png") 
     },
     { 
