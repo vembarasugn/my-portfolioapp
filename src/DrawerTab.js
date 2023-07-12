@@ -83,7 +83,7 @@ function DrawerTab() {
    const itemCalender =[
      {
        id:"1",
-       text:"Book a Video Call Meeting !",
+       text:"Book a Video Call",
        icon:<VideoCameraFrontIcon/>,
        path:'/Calendly'
      }

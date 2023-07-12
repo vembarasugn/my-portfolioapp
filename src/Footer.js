@@ -14,12 +14,12 @@ function Footer() {
         resources: [
             {   
                 name: "About",
-                link: "/about",
+                link: "/About",
                 target:"_blank"
             },
             {   
                 name: "Projects",
-                link: "http://localhost:3000/Projects",
+                link: "/Projects",
                 target:"_blank"
             },
             {   
@@ -51,7 +51,7 @@ function Footer() {
             },
             {
                 name: "showmore",
-                link: "/contact"
+                link: "/"
             }
         ]
     }

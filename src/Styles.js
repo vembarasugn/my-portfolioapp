@@ -69,7 +69,7 @@ export const Image = styled.div`
  background-size:contain;
  background-repeat:no-repeat;
  border:0.1em solid grey;
- border-radius:0.3em;
+ border-radius:50%;
  height:18.5em;
  width:18.5em;
  margin-top:2em;
@@ -91,6 +91,10 @@ export const Image = styled.div`
   margin-bottom:-7.8em
  }
  @media screen and (max-width:545px){
+  visibility:invisible;
+  display:none;
+ }
+ @media screen and (max-width:635px){
   visibility:invisible;
   display:none;
  }
