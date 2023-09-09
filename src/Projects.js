@@ -200,7 +200,7 @@ function Projects(){
     },
     {
       id:"20",
-      Projectname:"R Shiny App - BCL Data.",
+      Projectname:"R Shiny Application - BCL Data.",
       description:"This app will be helpful to analyse data analysis.I have built this app using R and R shiny.In this app you can explore few ideas about how you can analyse data and visualize them. ",
       Technologies:" R Language . R Studio . ShinyIO . Posit ",
       github:"https://github.com/vembarasugn?tab=repositories",
