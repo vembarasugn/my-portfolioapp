@@ -94,7 +94,7 @@ function Projects(){
       Projectname:"Advora React APP- an education company.",
       description:"This will be helpfull in fetching API data from DB and I have used sample API data to map them in a cards and visualising those data.",
       Technologies:" NodeJS . ReactJS . ChartJS2 . MaterialUI . Cloudflarepages",
-      github:"https://github.com/vembarasugn/advora-api",
+      sourcecode:"https://github.com/vembarasugn/advora-api",
       livereview:"https://advora-api.pages.dev/",
       image:require("./images/Webscraper.png") 
     },
@@ -185,7 +185,7 @@ function Projects(){
       Projectname:"WebScraping using Python Library.",
       description:"I have used Python Scientific Computing Library for analysis with Jupyter Notebook.I have used Beautifulsoup to scrap web data.",
       Technologies:" Python . Jupyter Notebook . Machine Learning Algorithm ",
-      github:"https://github.com/vembarasugn/Webscraping-using-python-scientific-computing-libraries.",
+      sourcecode:"https://github.com/vembarasugn/Webscraping-using-python-scientific-computing-libraries.",
       livereview:"https://github.com/vembarasugn/Webscraping-using-python-scientific-computing-libraries.",
       image:require("./images/Web-Scraping.png") 
     },
@@ -201,7 +201,7 @@ function Projects(){
     {
       id:"20",
       Projectname:"R Shiny Application - BCL Data.",
-      description:"This app will helpful to analyse data analysis.I have built this app using R and R shiny.In this app you can explore few ideas about how you can analyse data and visualize them. ",
+      description:"This app will helpful to analyse data analysis.I have built this app using R and R shiny.In this app you can have an ideas about how you can analyse data and visualize them. ",
       Technologies:" R Language . R Studio . ShinyIO . Posit ",
       sourcecode:"https://github.com/vembarasugn?tab=repositories",
       livereview:"https://myrshiny1.shinyapps.io/Appshiny/",
