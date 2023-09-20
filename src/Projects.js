@@ -206,6 +206,15 @@ function Projects(){
       github:"https://github.com/vembarasugn?tab=repositories",
       livereview:"https://myrshiny1.shinyapps.io/Appshiny/",
       image:require("./images/shinyimg.png")
+    },
+    {
+      id:"21",
+      Projectname:"Sample Pricing Table using Vanilla JS ",
+      description:"I have built this application to demontstrate skill for designing pricing table. Basci functionalities have been implemented in this design and you can refer this for your own customisation.",
+      Technologies:" HTML5 . CSS3 . JavasCript . AWS ",
+      github:"",
+      livereview:"http://nextgrowthlabs.s3-website.ap-south-1.amazonaws.com/#",
+      image:require("./images/Pricingtable.png")
     }
 
    ]};
