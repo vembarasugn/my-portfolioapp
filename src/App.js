@@ -2,7 +2,7 @@
 import React from "react";
 import{ BrowserRouter as Router , Routes , Route } from "react-router-dom";
 import DrawerTab from "./DrawerTab";
-import Homenew from "./Homenew";
+import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
@@ -13,7 +13,7 @@ function App(){
      <Router>
         <DrawerTab/>
            <Routes>
-             <Route exact path='/' element={<Homenew/>}/>
+             <Route exact path='/' element={<Home/>}/>
              <Route exact path='/About' element={<About/>}/>
              <Route exact path='/Projects' element={<Projects/>}/>
              <Route exact path='/Calendly' element={<Calendly/>}/>

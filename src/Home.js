@@ -14,7 +14,7 @@ import {
 } from "./Styles";
 
 
-function Homenew(){
+function Home(){
     return (
     <section>
         <Homebody>
@@ -54,4 +54,4 @@ function Homenew(){
     )
 }
            
-export default Homenew;
+export default Home;

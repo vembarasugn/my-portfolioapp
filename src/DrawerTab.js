@@ -13,10 +13,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import VideoCameraFrontIcon from '@mui/icons-material/VideoCameraFront';
-import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { useNavigate } from 'react-router-dom';
+import DownloadCV from './Vembarasan_Nagarajan_Updated _CV.pdf';
 
 const drawerWidth = 240;
 
@@ -83,7 +84,7 @@ function DrawerTab() {
    const itemCalender =[
      {
        id:"1",
-       text:"Book a Video Call",
+       text:"Video Call",
        icon:<VideoCameraFrontIcon/>,
        path:'/Calendly'
      }
@@ -135,9 +136,9 @@ function DrawerTab() {
 
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemsList.map((item) => (
-            <ListItem button  style={{ height:"77px"}} key={item.id} onClick={() => navigate(item.path)}>
+            <ListItemButton style={{ height:"77px"}} key={item.id} onClick={() => navigate(item.path)}>
               <ListItemText style={{color:"grey",marginLeft:"60px"}}>{item.text} </ListItemText>
-            </ListItem> 
+            </ListItemButton> 
           ))}
         </List>
               
@@ -145,29 +146,33 @@ function DrawerTab() {
         <Divider/>
 
         <List style={{ backgroundColor:"#ECB390"}} >
-            <ListItem button  style={{ height:"73px"}} >
+            <ListItemButton style={{ height:"73px"}} >
               <ListItemText style={{marginLeft:"60px"}}>
-              <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"grey"}}> EMail Me</a></ListItemText>
-            </ListItem> 
+              <a href="mailto:vembarasugn@gmail.com" style={{ textDecoration:"none", color:"grey"}}>EMail Me</a></ListItemText>
+            </ListItemButton> 
         </List>
 
         <Divider/>
         
         <List style={{ backgroundColor:"#ECB390"}}>
-            <ListItem button  style={{ height:"73px"}}>
+            <ListItemButton style={{ height:"73px"}}>
               <ListItemText style={{color:"grey",marginLeft:"60px"}}> 
-               <a target="_blank" href="./Vembarasan Nagarajan_Updated_CV" style={{ textDecoration:"none", color:"grey"}}>Get My CV </a></ListItemText>
-            </ListItem> 
+               <a target="_blank" 
+               href={DownloadCV}
+               download
+               rel="noreferrer"
+               style={{ textDecoration:"none", color:"grey"}}>Download CV</a></ListItemText>
+            </ListItemButton> 
         </List>
 
         <Divider/>
 
         <List style={{ backgroundColor:"#ECB390"}} >
           {itemCalender.map((items) => (
-            <ListItem button key={items.id} style={{ height:"116px"}} onClick={()=> navigate(items.path)}>
+            <ListItemButton  key={items.id} style={{ height:"116px"}} onClick={()=> navigate(items.path)}>
              <ListItemIcon style={{marginLeft:"8px"}}>{items.icon}</ListItemIcon>
              <ListItemText style={{color:"grey"}}>{items.text}</ListItemText>
-            </ListItem>
+            </ListItemButton>
           ))}
         </List>                 
       </Drawer>
