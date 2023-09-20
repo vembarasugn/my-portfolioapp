@@ -76,7 +76,7 @@ function Projects(){
       Projectname:"My Travel Journey Card - simple card design.",
       description:"Just a simple project that demonstartes some react JS skill.It gives you an overview of creating google maps with location using google maps API.",
       Technologies:" ReactJS . HTML5 . CSS3 . Javascript . GoogleMaps API . Netlify", 
-      sourcecode:"https://github.com/vembarasugn",
+      sourcecode:"https://github.com/vembarasugn/mytraveljourney",
       livereview:"https://pensive-pasteur-9caf2a.netlify.app/",
       image:require("./images/travel.png")  
     },
