@@ -201,9 +201,9 @@ function Projects(){
     {
       id:"20",
       Projectname:"R Shiny Application - BCL Data.",
-      description:"This app will helpful to analyse data analysis.I have built this app using R and R shiny.In this app you can have an ideas about how you can analyse data and visualize them. ",
+      description:"This app will helpful to analyse data analysis.I have built this app using R and R shiny.In this app you can have an idea about how you can analyse data and visualize them. ",
       Technologies:" R Language . R Studio . ShinyIO . Posit ",
-      sourcecode:"https://github.com/vembarasugn?tab=repositories",
+      sourcecode:"https://github.com/vembarasugn/shinymyapp",
       livereview:"https://myrshiny1.shinyapps.io/Appshiny/",
       image:require("./images/shinyimg.png")
     },

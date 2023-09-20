@@ -156,7 +156,7 @@ function DrawerTab() {
         <List style={{ backgroundColor:"#ECB390"}}>
             <ListItem button  style={{ height:"73px"}}>
               <ListItemText style={{color:"grey",marginLeft:"60px"}}> 
-               <a target="_blank" href="./Vembarasan N CV-updated.pdf" style={{ textDecoration:"none", color:"grey"}}>Get My CV </a></ListItemText>
+               <a target="_blank" href="./Vembarasan Nagarajan_Updated_CV" style={{ textDecoration:"none", color:"grey"}}>Get My CV </a></ListItemText>
             </ListItem> 
         </List>
 
