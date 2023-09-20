@@ -260,7 +260,7 @@ function Projects(){
          </CardContent>
          <br/>
          <CardActions >
-           <Button ><Link  underline="none" target="_blank" href={list.github} rel="noreferrer"> sourcecode </Link></Button>
+           <Button ><Link  underline="none" target="_blank" href={list.sourcecode} rel="noreferrer"> sourcecode </Link></Button>
            <Button ><Link  underline="none" target="_blank" href={list.livereview} rel="noreferrer"> livereview </Link></Button>
          </CardActions> 
          </CardActionArea>
