@@ -30,7 +30,7 @@ function Projects(){
        Projectname:"Helens guided Tours - a complete Tour guide.",
        description:"Helens guided tours is one of a genuine tour management organization.A complete tour guide across united kingdom from Helens.",
        Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . Netlify",
-       sourcecode:"https://github.com/vembarasugn",
+       sourcecode:"https://github.com/vembarasugn/Helensapp",
        livereview:"https://hellenstour.netlify.app",
        imageURL:"https://images.app.goo.gl/txMPwEg43NKcSzxj6",
        image:require("./images/tourism.png")
@@ -40,7 +40,7 @@ function Projects(){
       Projectname:"Geekz Microschool - American School.",
       description:"Geekz (K-5) is a full-stack Education Technology company - Network of Microschools small by design, powered by technology.",
       Technologies:" HTML5 . CSS3 . Javascript . Bootstrap . AWS",
-      sourcecode:"https://github.com/vembarasugn",
+      sourcecode:"https://github.com/vembarasugn/geekzapp",
       livereview:"https://www.geekz.school/",
       image:require("./images/school.png")  
     },
